@@ -85,8 +85,11 @@ function App() {
      </p>
        
      <form onSubmit={onSubmit}>
-  
-    <input type="text" name="cellphone" placeholder="Cell Phone Number"/>
+
+  <div className="input-container">
+  <i className="fa fa-mobile-phone icon fa-2x"></i>
+    <input type="text" name="cellphone" placeholder="Cell Phone Number" className="inputField"/>
+    </div>
     <br></br>
   <input type="submit" value="Sign Me Up!" className="submitButton" />
 </form>

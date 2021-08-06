@@ -17,7 +17,7 @@ code {
 
 
 .bottomPane {
-  margin-top: 60px;
+  margin-top: 40px;
   height: 20%;
 }
 
@@ -81,7 +81,7 @@ form {
   flex-direction: column;
   justify-content: space-around;
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 350px;
   padding: 30px 50px;
 }
 
@@ -91,6 +91,11 @@ input {
   box-sizing: border-box;
   padding: 10px;
   width: 100%;
+  height: 60px;
+}
+
+.inputField {
+  font-size: 25px;
 }
 
 .button {
@@ -102,5 +107,21 @@ input {
   background-color: rgb(0, 104, 239);
   color: white;
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.icon {
+  padding: 10px;
+  background-color: rgb(0, 104, 239);
+  color: white;
+  min-width: 20px;
+  text-align: center;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
 }
